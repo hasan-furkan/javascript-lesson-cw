@@ -157,28 +157,14 @@
 // }
 // console.log(`Girdiğiniz ${c} sayısının faktöriyel değeri ${sonuc} sayısıdır`);
 
-// for (let i = 0; i<=100; i ++){
-//     if (i %15===0){
-//         console.log("FizzBuzz");
-//     }
-// else if(i%3 === 0){
-//     console.log("Fizz")
-// }
-// else if (i %5 === 0){
-//     console.log("Buzz")
-// }
-// else{
-//     console.log(i)
-// }
-// }
 
 for (let i = 0; i<=100; i++){
-   if(i % 3 === 0){
+    if(i % 15 === 0){
+        console.log(i ,"{Fizzbuzz}");
+    }else if(i % 3 === 0){
         console.log(i ,"{Fizz}");
     }else if(i % 5 ===0){
         console.log(i, "{Buzz}");
-    } if(i % 15 === 0){
-        console.log(i ,"{Fizzbuzz}");
     }else{
         console.log(i);
     }
