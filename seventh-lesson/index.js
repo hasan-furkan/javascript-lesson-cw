@@ -181,4 +181,4 @@
 // trim() Method
 // var s = "                 <-Welcome \t to Clarus\tway->                 "
 // console.log(s);
-// console.log(s.trim());
+// console.log(s.trim()); 
