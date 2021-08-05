@@ -7,3 +7,6 @@ registration.addEventListener("submit", function(e) {
 })
 
 const lastNameInput = document.getElementsByName("last_name")[0].value
+
+
+document.querySelector("#lastName")
